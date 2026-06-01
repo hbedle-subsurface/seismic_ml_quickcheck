@@ -27,12 +27,9 @@ Seismic machine learning is genuinely powerful. It is also genuinely indifferent
 
 None of these are software problems. They are workflow problems. And they show up constantly - in student projects, in industry practice, in published papers - regardless of what software produced the result.
 
-The full AASPI uncertainty assessment tool covers all of this in depth. But we kept hearing from two very different groups of people who needed something shorter and more accessible:
+The full AASPI uncertainty assessment tool covers all of this in depth. This shorter version exists for anyone who wants a quick, structured reality check without the full 15-20 minute commitment - whether you're new to ML-assisted interpretation or you've been doing seismic interpretation for decades and just want to know if a result holds up.
 
-- Senior geoscientists with decades of conventional interpretation experience who are skeptical of "new fangled attributes" and want a quick way to evaluate whether an ML result is actually telling them something their existing methods couldn't. (Short answer: maybe! But only if the workflow was done right.)
-- Early-career geoscientists who are comfortable clicking buttons in Petrel or Kingdom or OpendTect without necessarily knowing what those buttons are doing under the hood - and who haven't yet developed the instinct to ask "but wait, should I check that?"
-
-This tool is written to work for both of those people simultaneously - and everyone in between. The questions build on geologic intuition that experienced interpreters already have. The plain-language explanations make sure newer folks understand why each question matters.
+The questions are grounded in geologic reasoning, not ML theory. Every question has a plain-language explanation of why it matters. No prior background in machine learning is assumed or required.
 
 ---
 
@@ -71,7 +68,7 @@ At the end you get:
 - A section-by-section breakdown showing where the gaps are
 - A prioritized list of specific actions to address what the check found
 
-The whole thing takes about five minutes.
+The whole thing takes about five minutes. And you will get a idea of how to take a few actions to improve your certainty in your ML results.
 
 ---
 
@@ -91,7 +88,6 @@ Planned additions to the quick check:
 
 - A version covering supervised methods (PNN, RFC, CNN) for folks using those workflows
 - Questions on SAM (Segment Anything Model) applications to seismic facies
-- Additional geologic settings and play types
 
 If you used this and found a question that didn't fit, an option that wasn't quite right for your situation, or a workflow step you kept wishing it had asked about - please reach out. That kind of feedback is exactly what shapes the next version.
 
